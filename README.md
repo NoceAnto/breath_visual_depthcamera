@@ -137,9 +137,11 @@ Representative respiratory motion maps obtained after torso segmentation and tem
 
 ## Requirements
 
+python version 3.9. 
 ```bash
-pip install ultralytics numpy scipy opencv-python
+pip install -r requirements.txt
 ```
+
 
 ---
 
