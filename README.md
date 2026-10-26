@@ -144,7 +144,7 @@ pip install ultralytics numpy scipy opencv-python
 ---
 
 ## Input Data
-
+Right now not present. 
 ```text
 depth_video_subject/
 ├── color_data.npy
