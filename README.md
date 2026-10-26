@@ -1,9 +1,9 @@
 # Respiratory Motion Extraction from RGB-D Videos
 
 <p align="center">
-  <img src="results/respiration_heatmap10.png" width="250"/>
-  <img src="results/respiration_heatmap29.png" width="250"/>
-  <img src="results/respiration_heatmap68.png" width="250"/>
+  <img src="mres/respiration_heatmap10.png" width="250"/>
+  <img src="mres/respiration_heatmap29.png" width="250"/>
+  <img src="mres/respiration_heatmap68.png" width="250"/>
 </p>
 
 <p align="center">
@@ -102,9 +102,9 @@ Visualization and Video Export
 ## Results
 
 <p align="center">
-  <img src="results/respiration_heatmap10.png" width="250"/>
-  <img src="results/respiration_heatmap29.png" width="250"/>
-  <img src="results/respiration_heatmap68.png" width="250"/>
+  <img src="mres/respiration_heatmap10.png" width="250"/>
+  <img src="mres/respiration_heatmap29.png" width="250"/>
+  <img src="mres/respiration_heatmap68.png" width="250"/>
 </p>
 
 Representative respiratory motion maps obtained after torso segmentation and temporal band-pass filtering. The color distribution highlights subtle depth changes associated with respiration.
