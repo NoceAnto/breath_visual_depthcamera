@@ -101,6 +101,23 @@ Visualization and Video Export
 
 ## Results
 
+### 1. YOLO Pose Estimation
+
+<p align="center">
+  <img src="mres/yolo_pose.png" width="650"/>
+</p>
+
+YOLO Pose automatically detects body landmarks used to define the torso region of interest.
+
+### 2. Subject Segmentation
+
+<p align="center">
+  <img src="mres/torso_mask.png" width="450"/>
+</p>
+
+Depth-based segmentation isolates the subject from the background using the torso depth estimate.
+
+### 3. Respiratory Motion Maps
 <p align="center">
   <img src="mres/respiration_heatmap10.png" width="250"/>
   <img src="mres/respiration_heatmap29.png" width="250"/>
@@ -151,7 +168,7 @@ Depth:
 ## Running
 
 ```bash
-python respiration_analysis.py
+python main.py
 ```
 
 Generated outputs:
@@ -193,12 +210,3 @@ For details:
 ## Author
 
 Antonio Nocera
-
-### Research Interests
-
-- Computer Vision
-- Machine Learning
-- RGB-D Imaging
-- Biomedical Signal Processing
-- Remote Physiological Monitoring
-- Human Motion Analysis
