@@ -209,6 +209,3 @@ For details:
 
 ---
 
-## Author
-
-Antonio Nocera
